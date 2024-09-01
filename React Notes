@@ -1,1 +1,15 @@
-React Notes
+React Notes :- 
+•	React is an open source js library used to build frontend applications.
+•	In simple words, with react we can create fast and better frontend application
+•	React application is build using reusable code snippets called components.
+•	React has virtual DOM  which compares the original DOM with the updated DOM and make the necessary changes in the in the original DOM. By using this virtual DOM, the updates will be smooth on original DOM, enhance the performance and better user experience. 
+•	The backend for react is node js. Here we use only one part of the node js that is NPM(node package modules)
+•	NPM is used to install the react applications and some additional features.
+•	Bible converts modern js or jsx  code to HTML code. 
+•	Node_modules :- node modules is the folder where iur all installed packages and library stay.
+•	In react we use jsx which is which means both xml and js. Using this jsx we can write js and HTML together. 
+•	Main.jsx is the file which connects our components with index.html file which is our main html file.
+•	Package.json file has the all info at our application like name, version, package versions etc. 
+•	Package.json  is essentially used to lock dependencies to a specific version number
+•	Vite.config.js which has the configuration object for our application. 
+•	
