@@ -13,5 +13,25 @@ React Notes :-
 •	Package.json  is essentially used to lock dependencies to a specific version number
 •	Vite.config.js which has the configuration object for our application. 
 •	Var is not block scope variable not functional scope variable . So mostly we use let or const keywords instead of var. 
-•	If we define a variable using let we can change the value of the variable but if we define a variable using we cant change it 
+•	If we define a variable using let we can change the value of the variable but if we define a variable using we cant change it.
+
+Arrow functions :- 
+-----------------
+Const Helo = (arg) => {
+Console.log(“Im” + (arg))
+}
+
+Map method :-
+------------j
+const products = ["prod1", "prod2", "prod3"];
+const dusplayProducts = products.map(function(product){
+  return "<li>" + product + "</li>"
+})
+
+const dusplayProducts = products.map((product) => {
+  return "<li>" + product + "</li>"
+})
+const dusplayProducts = products.map((product) => {
+  return `<li>${product}</li>`;
+})
 
