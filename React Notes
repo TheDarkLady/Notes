@@ -35,3 +35,14 @@ const dusplayProducts = products.map((product) => {
   return `<li>${product}</li>`;
 })
 
+Filter method:-
+•	Filter method is used to filter array
+•	In simple words , filter method is use to remove items from  existing array. 
+•	It always returns a new array.
+•	const ages = [5, 21, 16 , 13, 22, 37];
+•	const displayAges = ages.filter((age) => {
+•	  return age> 18
+•	})
+•	console.log(displayAges)
+
+
