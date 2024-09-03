@@ -39,10 +39,19 @@ Filter method:-
 •	Filter method is used to filter array
 •	In simple words , filter method is use to remove items from  existing array. 
 •	It always returns a new array.
-•	const ages = [5, 21, 16 , 13, 22, 37];
-•	const displayAges = ages.filter((age) => {
-•	  return age> 18
-•	})
-•	console.log(displayAges)
+const ages = [5, 21, 16 , 13, 22, 37];
+const displayAges = ages.filter((age) => {
+return age> 18
+})
+console.log(displayAges)
+
+Ternary Operatr :- 
+•	Ternary operator is used for adding condition. 
+•	In simple words, Ternary operators are the shortcut way to write if-else condition. 
+Syntax :- condition? trueExpession : falseExpression
+	Modules :- 
+•	Modules is a file that contains code to perform specific task 
+•	It contain variables, objects, functions etc…
+
 
 
