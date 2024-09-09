@@ -49,7 +49,20 @@ Ternary Operatr :-
 •	Ternary operator is used for adding condition. 
 •	In simple words, Ternary operators are the shortcut way to write if-else condition. 
 Syntax :- condition? trueExpession : falseExpression
-	Modules :- 
+const flag = true;
+  return (
+    <div>
+      <h3>Ecommers projects</h3>
+      {
+        flag ? (
+            <h4>Flag true</h4>
+        ):(
+            <h4>Flag false</h4>
+        )
+      }
+
+
+Modules :- 
 •	Modules is a file that contains code to perform specific task 
 •	It contain variables, objects, functions etc…
 
