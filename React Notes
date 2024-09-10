@@ -66,5 +66,16 @@ Modules :-
 •	Modules is a file that contains code to perform specific task 
 •	It contain variables, objects, functions etc…
 
+Mutation :- 
+If we directly change or mutate any variable the it will not render.
+
+Component life cycle methods :- 
+•	ComponentDidMount
+•	componentDidUpdate
+•	componentWillUnmount
+
+componentDidMount :- This is called first time on page load .
+componentDidUpdate : - This is checked when component is updated or when the props states values are changed.
+
 
 
