@@ -78,5 +78,26 @@ componentDidMount :- This is called first time on page load .
 componentDidUpdate : - This is checked when component is updated or when the props states values are changed.
 componentWillUnmount :- this is checked when component is unmounted.
 
+The React useState Hook allows us to track state in a function component.
+
+useEffect hooks :- The useEffect Hook allows you to perform side effects in your components.
+useEffect accepts two arguments. The second argument is optional.
+useEffect(<function>, <dependency>)
+1. No dependency passed:
+useEffect(() => {
+  //Runs on every render
+});
+2. An empty array:
+useEffect(() => {
+  //Runs only on the first render
+}, []);
+3. Props or state values:
+useEffect(() => {
+  //Runs on the first render
+  //And any time any dependency value changes
+}, [prop, state]);
+
+
+
 
 
